@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6ae09c5bb3c9e74983f02b543883ae9, type: 3}
+  m_Name: PunchthroughTower
+  m_EditorClassIdentifier: 
+  towerId: 8
+  towerName: Punchthrough Tower
+  description: Bullet flies through enemies
+  towerTier:
+  - rateOfFire: 1.2
+    damage: 13
+    range: 4
+    upgradeCost: 100
+  - rateOfFire: 1.1
+    damage: 18
+    range: 4
+    upgradeCost: 150
+  - rateOfFire: 1
+    damage: 25
+    range: 4
+    upgradeCost: 400
+  - rateOfFire: 1
+    damage: 35
+    range: 4
+    upgradeCost: 800
+  - rateOfFire: 1
+    damage: 50
+    range: 5
+    upgradeCost: 2000
+  - rateOfFire: 1
+    damage: 100
+    range: 5
+    upgradeCost: 2000
+  bulletSpeed: 5
+  buyoutCost: 70
+  selloutCost: 50
+  towerIcon: {fileID: 21300000, guid: 899bcc4d7c6a79c4d9b470e5160b1c63, type: 3}
+  towerToPlace: {fileID: 2393840887999378819, guid: 0b4d7a96dc676414c9630d3e3e89fb36,
+    type: 3}

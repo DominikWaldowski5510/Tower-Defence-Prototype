@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6ae09c5bb3c9e74983f02b543883ae9, type: 3}
+  m_Name: BurnTower
+  m_EditorClassIdentifier: 
+  towerId: 3
+  towerName: Burn Tower
+  description: Deals burn damage over time
+  towerTier:
+  - rateOfFire: 0.7
+    damage: 15
+    range: 2.5
+    upgradeCost: 75
+  - rateOfFire: 0.5
+    damage: 16
+    range: 3
+    upgradeCost: 177
+  - rateOfFire: 0.5
+    damage: 20
+    range: 3.2
+    upgradeCost: 300
+  - rateOfFire: 0.5
+    damage: 20
+    range: 3.5
+    upgradeCost: 590
+  - rateOfFire: 0.4
+    damage: 25
+    range: 3.5
+    upgradeCost: 1200
+  bulletSpeed: 10
+  buyoutCost: 150
+  selloutCost: 75
+  towerIcon: {fileID: 21300000, guid: a0a777df3b764b246b34532f2332ff65, type: 3}
+  towerToPlace: {fileID: 8040809889013135746, guid: 3f890b2853aec6142993a2753b27480e,
+    type: 3}
