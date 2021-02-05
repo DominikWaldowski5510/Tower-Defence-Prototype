@@ -112,9 +112,9 @@ MonoBehaviour:
     width: 1920
     height: 947
   m_MinSize: {x: 681, y: 494}
-  m_MaxSize: {x: 14004, y: 14044}
+  m_MaxSize: {x: 14002, y: 14044}
   vertical: 0
-  controlID: 130
+  controlID: 96
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -136,10 +136,10 @@ MonoBehaviour:
     y: 0
     width: 1388
     height: 947
-  m_MinSize: {x: 404, y: 494}
+  m_MinSize: {x: 406, y: 494}
   m_MaxSize: {x: 10002, y: 14044}
   vertical: 1
-  controlID: 60
+  controlID: 102
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -161,10 +161,10 @@ MonoBehaviour:
     y: 0
     width: 1388
     height: 623
-  m_MinSize: {x: 404, y: 222}
-  m_MaxSize: {x: 8004, y: 4022}
+  m_MinSize: {x: 406, y: 222}
+  m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 61
+  controlID: 103
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -184,8 +184,8 @@ MonoBehaviour:
     y: 0
     width: 345
     height: 623
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 222}
+  m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -268,8 +268,8 @@ MonoBehaviour:
     y: 0
     width: 532
     height: 947
-  m_MinSize: {x: 277, y: 72}
-  m_MaxSize: {x: 4002, y: 4022}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -387,7 +387,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 8c7df8ffc27df8ffa67ef8ffb07ef8ffd681f8ffcc53f9ff5c54f9ffb6dbf9ffa2e0f9fff462fbff3893fbffc85efcff148bfcffe276fdffc0ccfdff5a0bfeff940bfeff780cfeff820cfeffa80ffeff58bffeff42c5fefff4eefefff2f6feff4afafeff4672ffff8672ffffa272ffff1276ffffce79ffffaadeffffb4deffffc6deffffd8deffff76fbfffff4ffffffcc360000ee3600003237000078370000387a0000aa7b000016890000d88b00003e8c0000848c000020f200005212010076120100e81201004e13010086130100fc14010078150100641601008a160100a2160100d8d401003ed50100b0d50100c0d6010052d90100b47202002873020082730200407402005c7402001e7502006a7902003c7a0200164403008a440300a24503001a470300b44703002a48030042480300b04c0300065b03007a5b0300925c0300
+      m_ExpandedIDs: a091ffffd691ffffba92ffffc492ffffea95ffff76fbffff5e33000078330000f63300001e350000a2360000b2370000de370000f6370000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -508,9 +508,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.118444555, y: 0.037086383, z: -0.004516847, w: 0.9922576}
   m_Size:
-    m_Target: 367.49783
+    m_Target: 1846.5547
     speed: 2
-    m_Value: 367.49783
+    m_Value: 1846.5547
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -690,35 +690,35 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Resources/Prefabs/Towers
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Resources/Prefabs/Towers
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Game Making\Unity\Personal\TowerDefenseTwitch\Tower Defense
-    Game
+  m_LastProjectPath: D:\Game Making\Unity\Personal\TowerDefenseTwitch\Tower-Defence-Prototype\Tower
+    Defense Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 127}
-    m_SelectedIDs: dc2e0000
-    m_LastClickedID: 11996
-    m_ExpandedIDs: 00000000662d0000162f00004a2f00007e2f0000822f0000d42f0000ee2f000064300000203100009c310000ec46000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 662d0000
+    m_LastClickedID: 11622
+    m_ExpandedIDs: 00000000662d00007c2f0000802f0000d22f0000623000001e3100004c49000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Utilities
-      m_OriginalName: Utilities
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 12710
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
@@ -732,7 +732,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000662d00007e2f0000822f0000d42f00006430000020310000ec460000
+    m_ExpandedIDs: 00000000662d00007c2f0000802f0000d22f0000623000001e3100004c490000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -842,7 +842,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 220208
+  m_LastSelectedObjectID: 14326
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52

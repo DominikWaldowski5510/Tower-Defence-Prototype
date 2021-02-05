@@ -87,7 +87,7 @@ public class DockInformation : MonoBehaviour
         GameManager.instance.Money += CalculateDeleteCosts();
         GameManager.instance.UpdateMoney();
         //Removes and resets the panels
-        Destroy(tower.gameObject);
+        tower.gameObject.SetActive(false);
         tower = null;
         PlayerInteraction.instace.RangeDisplayCircle.SetActive(false);
         towerExtendedPanel.gameObject.SetActive(false);
