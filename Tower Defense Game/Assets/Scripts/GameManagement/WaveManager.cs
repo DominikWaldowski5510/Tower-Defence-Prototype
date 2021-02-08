@@ -84,11 +84,15 @@ public class WaveManager : MonoBehaviour
     {
         if (GameManager.instance.GameLost == false)
         {
-            if (isWaveStarted == false)
+            if (isWaveStarted == false && waveNumber < availableWaves.Count)
             {
                 waveNumber++;
                 UpdateWaveText();
                 StartCoroutine(SpawnEnemy());
+            }
+            else
+            {
+                GameManager.instance.GameWon();
             }
         }
     }

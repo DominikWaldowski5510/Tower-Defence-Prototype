@@ -65,6 +65,14 @@ public class GameManager : MonoBehaviour
         playerHealthText.text = "Player Health: " + playerHealth + "/" + playerMaxHealth;
     }
 
+    //The game has now been won
+    public void GameWon()
+    {
+        gameLost = true;
+        endGameLostText.gameObject.SetActive(true);
+        endGameLostText.text = "Game Over, You Win!\n Total Kills: " + KillCount + "\n Press Space to return to Main menu";
+    }
+
     //Displays game over text when health reaches 0 and sets the game as lost
     private void GameOver()
     {

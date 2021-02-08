@@ -28,6 +28,7 @@ public class CameraController : MonoBehaviour
     //updates camera movement based on vertical and horizontal input using unitys input system
     private void Update()
     {
+        Debug.Log("himm");
         Vector3 pos = Camera.main.transform.position;
 
         if (Input.GetAxis("Vertical") > 0)
